@@ -16,7 +16,7 @@ startBtn.addEventListener('click' , play);
 function play(){
   console.log('play');
   reset();
-  generatePlayGround()
+  generatePlayGround();
 }
 
 function reset(){
@@ -33,11 +33,11 @@ function generatePlayGround(){
      console.log(cell);
   }
 }
-
+// funzione per creare la cella
 function createCell(index){
    const cell = document.createElement('div');
    cell.className = 'cell';
    cell.classList.add('square100');
    cell._cellID = index; 
    return cell;
-}
+}  
