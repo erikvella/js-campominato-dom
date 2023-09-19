@@ -37,3 +37,14 @@ height: 100vh;
   width: calc(100% / 7);
   height: calc(100% / 7);
 }
+
+/* classi active */
+
+.clicked{
+  background-color: yellow;
+  
+}
+
+.bomb{
+  background-color: brown;
+}
