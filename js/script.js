@@ -29,7 +29,7 @@ function generatePlayGround(){
   grid.className = 'grid';
   // creo un ciclo per generare le celle 
   for(let i = 0 ; i < cellNumber ; i++){
-     const cell = createCell[i];
+     const cell = createCell(i);
      console.log(cell);
   }
 }
