@@ -1,0 +1,39 @@
+header{
+  background-color: rgb(2, 172, 172);
+  height: 90px;
+}
+
+main{
+background-color: rgb(158, 158, 255);
+height: 100vh;
+}
+
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 600px;
+
+}
+
+.cell{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.square100{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+.square81{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+.square49{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
