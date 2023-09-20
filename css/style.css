@@ -48,3 +48,7 @@ height: 100vh;
 .bomb{
   background-color: brown;
 }
+
+.end-game{
+  background-color: rgba(0, 0, 0, 0.438);
+}

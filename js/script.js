@@ -132,6 +132,8 @@ function endgame(isWin){
 // - Congelo la griglia
 // - In base al punteggio restituisco un messaggio di vincita/perdita
 showBombs();
+const endgame = document.createElement('div');
+endgame.className = 'end-game';
 }
 
 function showBombs(){
