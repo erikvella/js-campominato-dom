@@ -134,6 +134,15 @@ function endgame(isWin){
 showBombs();
 const endgame = document.createElement('div');
 endgame.className = 'end-game';
+main.append(endgame);
+
+let message ;
+if(isWin){
+message = 'Hai vinto!!!'
+}else{
+  message = `Hai perso, hai fatto solo ${points} punti , su ${cellNumber - numBombs}`;
+}
+document.querySelector('.end-message').innerHTML = message;
 }
 
 function showBombs(){
