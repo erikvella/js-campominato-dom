@@ -55,7 +55,14 @@ function play(){
 }
 
 function reset(){
+// - Cancella la griglia
+// - Cancella le bombe 
+// - Azzera il punteggio
+
   main.innerHTML = '';
+  points = 0;
+  document.querySelector('.end-message').innerHTML = '';
+  arrBombs = [];
 }
 
 function generatePlayGround(){
